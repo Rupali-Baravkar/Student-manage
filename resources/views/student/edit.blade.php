@@ -142,13 +142,13 @@
                                 <div class="col-12">
 
                                     <select class="select form-control-sm" name="choose_subject">
-                                        <option value="" disabled {{ old('choose_subject', $student->choose_subject) == '' ? 'selected' : '' }}>Choose option</option>
+                                        <option value="" disabled {{ old('choose_subject', $student->choose_subject) == '' ? 'selected' : '' }}>Select Subject</option>
                                         <option value="1" {{ old('choose_subject', $student->choose_subject) == '1' ? 'selected' : '' }}>Subject 1</option>
                                         <option value="2" {{ old('choose_subject', $student->choose_subject) == '2' ? 'selected' : '' }}>Subject 2</option>
                                         <option value="3" {{ old('choose_subject', $student->choose_subject) == '3' ? 'selected' : '' }}>Subject 3</option>
                                         <option value="4" {{ old('choose_subject', $student->choose_subject) == '4' ? 'selected' : '' }}>Subject 4</option>
                                     </select>
-                                    <label class="form-label select-label">Choose option</label>
+                                    <label class="form-label select-label">Select Subject</label>
                                     @error('choose_subject')
                                     <div>
                                         <span class="text-danger">{{$message}}</span>
