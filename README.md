@@ -1,4 +1,4 @@
-# Laravel-Post-Management
+# Student-Management
 
 # Laravel version -> 10.x
 
